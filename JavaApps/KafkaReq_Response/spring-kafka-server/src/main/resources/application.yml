@@ -1,0 +1,9 @@
+server:
+      port: 8081
+spring:
+  kafka:
+    bootstrap-servers: 10.10.10.98:9092
+myproject:
+  send-topics: hwEquipments
+  reply-topics: productionLine
+  consumer-group: my-kafka-group

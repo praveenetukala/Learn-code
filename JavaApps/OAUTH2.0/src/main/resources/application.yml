@@ -1,0 +1,64 @@
+#server port
+server:
+  port: 8080
+
+spring:
+  application:
+    name: geteway
+    
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/OAUTH_TEST
+    username: root
+    password: Ctel@123
+  jpa:
+    hibernate.ddl-auto: update
+    generate-ddl: true
+    show-sql: true
+
+#Encryption and Decryption 
+AES:
+  IV: bpcl@123IntVec$1
+  KEY: BPclh@mTt$Byel89
+
+#eureka:
+#  client:
+#    serviceUrl:
+#      defaultZone: http://localhost:8761/eureka/
+      
+#Oauth client credentials  
+oauth:
+  client1:
+    clienId: Ctel
+    clientSecret: CteL12$
+    validity: 360
+    
+  client2:
+    clienId: CtelPhp
+    clientSecret: CteL12$
+    validity: 36000
+  token:
+    access:
+      url: http://localhost:8080/oauth/token
+    
+#ribbon:
+#  ReadTimeout: 60000
+#  connection-timeout: 60000
+#  eureka:
+#    enabled: true
+#
+#zuul:
+#  host:
+#     time-to-live: -1
+#     connect-timeout-millis: 60000 # starting the connection 
+#     max-per-route-connections: 60000 # monitor the continuous incoming data flow
+#     max-total-connections: 5000
+#     socket-timeout-millis: 60000
+#  semaphore:
+#     max-semaphores: 500
+#  sensitive-headers:  Cookie,Set-Cookie, Authorization
+#   
+#  routes:
+#     products:
+#        path: /src/**
+#        url: http://localhost:8081/
