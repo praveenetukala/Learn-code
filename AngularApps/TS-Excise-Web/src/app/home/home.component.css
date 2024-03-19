@@ -1,0 +1,269 @@
+/* Global Styles */
+main {
+  background-color: rgb(231, 231, 231);
+}
+
+/* Top Navbar Styles */
+.top-navbar {
+  background-color: #cb9a51;
+  color: white;
+  padding: 10px;
+}
+
+.top-navbar a,
+.top-navbar span,
+.top-navbar .bi-globe {
+  font-size: 15px;
+  color: white;
+}
+
+/*Bottom nav bar styles*/
+.bottom-navbar {
+  background-color: white;
+  padding: 0;
+}
+
+.bottom-navbar img {
+  max-width: 100%;
+}
+
+.site-text {
+  display: flex;
+  font-size: 15px;
+  margin-top: 20px;
+}
+
+.items {
+  display: flex;
+  margin-top: 20px;
+  list-style: none;
+}
+
+.items li {
+  margin-right: 15px;
+}
+
+.items li a {
+  font-size: 14px;
+  text-decoration: none;
+  color: #000;
+}
+
+button {
+  margin-top: 15px;
+}
+
+.notification-bell {
+  display: flex;
+  margin-top: 20px;
+}
+
+/* Image Content Styles */
+.image-content {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  background-color: #0381bb;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.cm-img,
+.state-img,
+.ministr-img {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  height: auto;
+}
+
+.cm-img img,
+.state-img img,
+.ministr-img img {
+  max-width: 100%;
+  height: auto;
+}
+
+.cm-img {
+  margin-right: 5px;
+}
+
+.ministr-img {
+  margin-left: 5px;
+}
+
+/* Card Styles */
+.card {
+  background-color: white;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.card .card-header {
+  background-color: #0098df;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.card ul li {
+  background-color: whitesmoke;
+  margin-bottom: 5px;
+  padding: 10px;
+  border-radius: 1px;
+}
+
+.card ul li a {
+  text-decoration: none;
+}
+
+.card ul li a span {
+  font-size: 15px;
+  color: black;
+}
+
+/* Services style */
+.services-content {
+  background-color: rgb(199, 199, 199);
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.services-content h4 {
+  text-align: center;
+  padding-top: 15px;
+}
+
+.services-content ul {
+  list-style: none;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.services-content ul li {
+  display: inline;
+  padding: 20px;
+}
+
+/* Footer Navbar Styles */
+.footer-navbar {
+  background-color: white;
+  padding: 15px 10px;
+}
+
+.footer-navbar ul a {
+  text-decoration: none;
+  color: black;
+}
+
+.footer-navbar ul {
+  list-style: none;
+}
+
+.footer-navbar ul li {
+  display: inline;
+  padding: 10px;
+}
+
+.footer-navbar span {
+  font-size: 15px;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #464646;
+  color: white;
+  padding: 10px;
+}
+
+footer span {
+  font-size: 13px;
+}
+
+footer strong {
+  font-size: 13px;
+}
+
+/* Login Modal Styles */
+.modal-dialog {
+  max-width: 26%;
+  margin: 1.75rem auto;
+  transform: translateX(100%);
+}
+
+.modal.fade:not(.show) .modal-dialog {
+  transform: translateX(100%);
+}
+
+.modal.show .modal-dialog {
+  transform: translateX(0);
+}
+
+.model-header {
+  text-align: center;
+  background-color: #0381bb;
+  border-radius: 2px;
+}
+
+.model-header .btn-close {
+  float: right;
+  margin-right: 10px;
+  margin-top: 3px;
+}
+
+.model-header span {
+  font-size: 20px;
+  color: white;
+}
+
+.user-profile-pic img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+.modal-body form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.form-group i {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 2px;
+  font-size: 18px;
+}
+
+@media (min-width: 768px) {
+  /* Tablet and Desktop Styles */
+  .top-navbar,
+  .bottom-navbar {
+    padding: 5px;
+  }
+
+  .items {
+    flex-wrap: nowrap;
+  }
+
+  .modal-dialog {
+    margin-right: 2%;
+  }
+}

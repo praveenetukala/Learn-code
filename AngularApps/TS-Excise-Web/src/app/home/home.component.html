@@ -1,0 +1,282 @@
+<header>
+  <nav class="top-navbar">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12 col-md-8"></div>
+        <div class="col-6 col-md-2">
+          <a routerLink="#">Skip To Main content</a>
+        </div>
+        <div class="col-6 col-md-1">
+          <i class="bi bi-globe"></i>&nbsp; <span>English</span>
+        </div>
+        <div class="col-6 col-md-1"></div>
+      </div>
+    </div>
+  </nav>
+  <nav class="bottom-navbar">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12 col-md-1">
+          <img src="../../assets/home/Group 28722.svg" height="80" width="80" alt="Logo" />
+        </div>
+        <div class="col-12 col-md-3">
+          <strong class="site-text">Prohibition and Excise Department</strong>
+        </div>
+        <div class="col-12 col-md-6">
+          <ul class="items">
+            <li class="nav-item">
+              <a class="nav-link" routerLink="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" routerLink="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" routerLink="#">User Manuals & Documents</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" routerLink="#">List of IMFL Depots</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" routerLink="#">Orders & Circulars</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-6 col-md-1">
+          <i class="bi bi-bell notification-bell"></i>
+        </div>
+        <div class="col-6 col-md-1">
+          <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#loginModal">
+            Login
+          </button>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+<main>
+  <div class="container-fluid">
+    <!--Login model start -->
+    <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="model-header">
+            <span>Login</span>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="user-profile-pic">
+              <img src="../../assets/home/Group 41242.svg" height="80" width="80">
+            </div>
+            <form>
+              <div class="form-group">
+                <input class="form-control form-control-sm" type="text" placeholder="Enter Username"
+                  aria-label=".form-control-sm" />
+                <i class="bi bi-person"></i>
+              </div>
+              <div class="form-group">
+                <input class="form-control form-control-sm" type="password" placeholder="Enter Password"
+                  aria-label=".form-control-sm" />
+                <i class="bi bi-lock"></i>
+              </div>
+              <div class="form-group">
+                <button class="btn btn-primary" (click)="login()">Login</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Login Model End-->
+    <div class="row">
+      <div class="clo-12 col-md-8">
+        <div class="row">
+          <div class="col">
+            <div class="image-content">
+              <div class="cm-img">
+                <img src="../../assets/home/Home/Group 28711.png" />
+              </div>
+              <div class="state-img">
+                <img src="../../assets/home/Telangana_Map_1/Telangana_Map_1.png" />
+              </div>
+              <div class="ministr-img">
+                <img src="../../assets/home/Group 28712/Group 28712.png" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-md-6">
+            <div class="announcements">
+              <div class="card">
+                <div class="card-header">
+                  <strong>Announcements</strong>
+                </div>
+                <ul>
+                  <li class="list-group-item">
+                    <a class="nav-link" routerLink="#"><span>
+                        District-wise supplementary Notification of
+                        Gazettes</span></a>
+                  </li>
+                  <li class="list-group-item">
+                    <a class="nav-link" routerLink="#"><span>
+                        District-wise supplementary Notification of
+                        Gazettes</span></a>
+                  </li>
+                  <li class="list-group-item">
+                    <a class="nav-link" routerLink="#"><span>
+                        District-wise supplementary Notification of
+                        Gazettes</span></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6">
+            <div class="latest-news-links">
+              <div class="card">
+                <div class="card-header">
+                  <strong>Latest News & Useful Links</strong>
+                </div>
+                <ul>
+                  <li class="list-group-item">
+                    <a routerLink="#"><span>
+                        District-wise supplementary Notification of
+                        Gazettes</span></a>
+                  </li>
+                  <li class="list-group-item">
+                    <a routerLink="#"><span>
+                        District-wise supplementary Notification of
+                        Gazettes</span></a>
+                  </li>
+                  <li class="list-group-item">
+                    <a routerLink="#"><span>
+                        District-wise supplementary Notification of
+                        Gazettes</span></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-4">
+        <div class="Govt-notifi-app-form">
+          <div class="card">
+            <div class="card-header">
+              <strong>Government Notifications and Application Form</strong>
+            </div>
+            <ul>
+              <li class="list-group-item">
+                <a routerLink="#"><span>
+                    District-wise supplementary Notification of Gazettes</span></a>
+              </li>
+              <li class="list-group-item">
+                <a routerLink="#"><span>
+                    District-wise supplementary Notification of Gazettes</span></a>
+              </li>
+              <li class="list-group-item">
+                <a routerLink="#"><span>
+                    District-wise supplementary Notification of Gazettes</span></a>
+              </li>
+              <li class="list-group-item">
+                <a routerLink="#"><span>
+                    District-wise supplementary Notification of Gazettes</span></a>
+              </li>
+              <li class="list-group-item">
+                <a routerLink="#"><span>
+                    District-wise supplementary Notification of Gazettes</span></a>
+              </li>
+              <li class="list-group-item">
+                <a routerLink="#"><span>
+                    District-wise supplementary Notification of Gazettes</span></a>
+              </li>
+              <li class="list-group-item">
+                <a routerLink="#"><span>
+                    District-wise supplementary Notification of Gazettes</span></a>
+              </li>
+              <li class="list-group-item">
+                <a routerLink="#"><span>
+                    District-wise supplementary Notification of Gazettes</span></a>
+              </li>
+              <li class="list-group-item">
+                <a routerLink="#"><span>
+                    District-wise supplementary Notification of Gazettes</span></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12 col-md-12">
+        <div class="services-content">
+          <h4>E-Services</h4>
+          <ul>
+            <li>
+              <img src="../../assets/home/Mask Group 35.png" />
+            </li>
+            <li>
+              <img src="../../assets/home/Mask Group 40.png" />
+            </li>
+            <li>
+              <img src="../../assets/home/Mask Group 39.png" />
+            </li>
+            <li>
+              <img src="../../assets/home/Mask Group 38.png" />
+            </li>
+            <li>
+              <img src="../../assets/home/Mask Group 37.png" />
+            </li>
+            <li>
+              <img src="../../assets/home/Mask Group 36.png" />
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<nav class="footer-navbar">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12 col-md-6">
+        <span> Online Indenting Help line: 040-42425528-535 </span>
+      </div>
+      <div class="col-12 col-md-6">
+        <ul>
+          <li>
+            <a routerLink="#"><span>FAQs </span></a>
+          </li>
+          <li>
+            <a routerLink="#"><span>Site Map</span></a>
+          </li>
+          <li>
+            <a routerLink="#"> <span>Copyright Policy</span></a>
+          </li>
+          <li>
+            <a routerLink="#"> <span>Privacy Policy</span></a>
+          </li>
+          <li>
+            <a routerLink="#"> <span>Terms of Use</span></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+<footer>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12 col-md-7">
+        <strong>Head office :</strong><span>Prohibition and Excise Complex,Nampally Station Road, Nampally
+          ,Hyderabad-500001 ,Telangana</span>
+      </div>
+      <div class="col-12 col-md-5">
+        <span>HPFS Build PROD V1.0 | Copyright 2013-2024 | Powered By C-tel
+          Infosystems Pvt.Ltd</span>
+      </div>
+    </div>
+  </div>
+</footer>
