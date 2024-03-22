@@ -1,9 +1,0 @@
-com\demo\controller\MasterController.class
-com\demo\util\CommonValueUtil.class
-com\demo\config\SecurityConfig.class
-com\demo\util\UserResponse.class
-com\demo\config\AppConfig.class
-com\demo\ServletInitializer.class
-com\demo\config\JWTUtil.class
-com\demo\SpringSecurityApplication.class
-com\demo\util\UserRequest.class
